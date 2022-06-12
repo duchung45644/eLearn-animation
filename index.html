@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elearn</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="root">
+        <header class="container">
+            <div class="header__logo">
+                <img src="./assets/img/Logo.png" alt="">
+            </div>
+
+
+            <div class="nav">
+                <div class="nav__item">
+                    <p>Home</p>
+                </div>
+                <div class="nav__item">
+                    <p><a href="#course">Course</a></p>
+                </div>
+                <div class="nav__item">
+                    <p><a href="#testimonial">Testimonial</a></p>
+                </div>
+                <div class="nav__item">
+                    <p>Pages</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <div class="sub-nav">
+                        <div class="sub-nav__item">
+                            <p>404 Page</p>
+                        </div>
+                        <div class="sub-nav__item">
+                            <p><a href="#about">About</a></p>
+                        </div>
+                        <div class="sub-nav__item">
+                            <p><a href="#achives">Archives</a></p>
+                        </div>
+                        <div class="sub-nav__item">
+                            <p>Contact</p>
+                        </div>
+                        <div class="sub-nav__item">
+                            <p>FAQ</p>
+                        </div>
+                        <div class="sub-nav__item">
+                            <p>Subscription</p>
+                        </div>
+                    </div>
+                </div>
+                <button>Call us</button>
+
+            </div>
+
+            <!-- Mobile navigation bar -->
+            <div>
+                <input type="checkbox" id="nav__mobile-btn">
+            
+                <label for="nav__mobile-btn" class="nav__bars-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                
+                <label class="nav-overlay" for="nav__mobile-btn"></label>
+
+                <div class="nav-mobile">
+                    <label for="nav__mobile-btn" class="nav__mobile-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+
+                    <div class="nav-mobile__item">
+                        <p>Home</p>
+                    </div>
+                    <div class="nav-mobile__item">
+                        <p><a href="#course">Course</a></p>
+                    </div>
+                    <div class="nav-mobile__item">
+                        <p><a href="#testimonial">Testimonial</a></p>
+                    </div>
+                    <div class="nav-mobile__item">
+                        <p>Pages</p>
+
+                        <input type="checkbox" id="sub_nav-mobile">
+                        <label for="sub_nav-mobile"><i class="fa-solid fa-caret-down"></i></label>
+                        
+                        <div class="sub-nav-mobile">
+                            <div class="nav-mobile__item">
+                                <p>404 Page</p>
+                            </div>
+                            <div class="nav-mobile__item">
+                                <p><a href="#about">About</a></p>
+                            </div>
+                            <div class="nav-mobile__item">
+                                <p><a href="#achives">Archives</a></p>
+                            </div>
+                            <div class="nav-mobile__item">
+                                <p>Contact</p>
+                            </div>
+                            <div class="nav-mobile__item">
+                                <p>FAQ</p>
+                            </div>
+                            <div class="nav-mobile__item">
+                                <p>Subscription</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="banner container">
+                <div class="banner__text-part">
+                    <h1 class="show-on-scroll left-to-right left-tlx-15">Move Beyond The Limitations of E-Learning</h1>
+                    <p class="desc show-on-scroll left-to-right">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <div class="banner__button">
+                        <button class="btn banner__button-1 show-on-scroll left-to-right">Get Started</button>
+                        <button class="btn banner__button-2 arrow show-on-scroll left-to-right left-tlx-20">Learn More
+                            <i class="fa-solid fa-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <img class="show-on-scroll right-to-left" src="./assets/img/studying-at-college.png" alt="">
+            </div>
+
+            <!-- === Achive === -->
+            <div class="achives container" id="achives">
+                <div class="achives__title show-on-scroll left-to-right">
+                    Trusted by 25.000+ Happy Students are Join with us for Achive Their Goal.
+                </div>
+                <div class="achives__counter">
+                    <div class="active_student show-on-scroll right-to-left">
+                        <div class="achives__counter__number student-couter"><span>4.8</span></div>
+                        <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <label>Active Student</label>
+                    </div>
+
+                    <div class="achives__rating show-on-scroll right-to-left right-tlx-20">
+                        <div class="achives__counter__number rating-couter"><span>20</span> k</div>
+                        <div class="rate-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <label>2,876 Rating</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- === About === -->
+            <div class="about container" id="about">
+                <div class="about__title show-on-scroll rise-up">
+                    <span>About Us</span>
+                    <p class="section-title">Working Process for Join & Benefits</p>
+                </div>
+                
+                <div class="about__content">
+                    <div class="about-item show-on-scroll rise-up">
+                        <div class="about__card card-1">
+                            <img src="./assets/img/About/travello-basic-ui-icons.png" alt="">
+                            Find Course
+                        </div>
+                        <p class="text-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <button class="about__content-btn btn arrow">Learn More
+                            <i class="fa-solid fa-circle-right"></i>
+                        </button>
+                    </div>
+                    <img src="./assets/img/About/Arrow-2.png" alt="">
+                    <div class="about-item show-on-scroll rise-up">
+                        <div class="about__card card-2">
+                            <img src="./assets/img/About/travello-basic-ui-icons-2.png" alt="">
+                            Booking Seat
+                        </div>
+                        <p class="text-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <button class="about__content-btn btn arrow">Learn More
+                            <i class="fa-solid fa-circle-right"></i>
+                        </button>
+                    </div>
+                    <img src="./assets/img/About/Arrow-2.png" alt="">
+                    <div class="about-item show-on-scroll rise-up">
+                        <div class="about__card card-3">
+                            <img src="./assets/img/About/travello-basic-ui-icons-3.png" alt="">
+                            Get Certificate
+                        </div>
+                        <p class="text-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <button class="about__content-btn btn arrow">Learn More
+                            <i class="fa-solid fa-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- === Introduction Course === -->
+            <div class="introduce-course container">
+                <div>
+                    <div class="introduce-course__title">
+                        <span class="show-on-scroll left-to-right">Fun Course & Learning</span>
+                        <p class="section-title show-on-scroll left-to-right">Interesting and Fun Learning</p>
+                        <p class="text-color show-on-scroll left-to-right">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+
+                    <div class="introduce-course__item">
+                        <i class="fa-solid fa-book-open show-on-scroll left-to-right left-tlx-20"></i>
+                        <h3 class="show-on-scroll left-to-right">Theory Learning</h3>
+                        <p class="text-color show-on-scroll right-to-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+                    <div class="introduce-course__item">
+                        <i class="fa-solid fa-microscope show-on-scroll left-to-right left-tlx-20"></i>
+                        <h3 class="show-on-scroll left-to-right">Learn Practice</h3>
+                        <p class="text-color show-on-scroll left-to-right">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+                </div>
+                <img class="show-on-scroll right-to-left" src="./assets/img/students-and-teacher-RVRHBBJ.jpg" alt="">
+            </div>
+
+            <!-- === Course part === -->
+            <div class="course" id="course">
+                <div class="course__content container">
+                    <div class="course__card-item course__header show-on-scroll right-to-left">
+                        <span>Course</span>
+                        <h2 class="section-title">Our Most Popular Course</h2>
+                        <p class="text-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                        <button class="btn">View More</button>
+                    </div>
+
+                    <div class="course__card-item show-on-scroll right-to-left right-tlx-15">
+                        <h3>Business Data Science Online Course</h3>
+                        <div class="course__infor">
+                            <div class="number-lessons">
+                                13 Lessons
+                            </div>
+                            <p>150$</p>
+                            <div class="rate-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <img src="./assets/img/Course/1.jpg" alt="">
+                    </div>
+                    
+                    <div class="course__card-item show-on-scroll right-to-left right-tlx-20">
+                        <h3>Learn UI/UX Design Online Course</h3>
+                        <div class="course__infor">
+                            <div class="number-lessons">
+                                13 Lessons
+                            </div>
+                            <p>150$</p>
+                            <div class="rate-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <img src="./assets/img/Course/2.jpg" alt="">
+                    </div>
+                    
+                    <div class="course__card-item show-on-scroll right-to-left">
+                        <h3>Learn Interior Design Online Course</h3>
+                        <div class="course__infor">
+                            <div class="number-lessons">
+                                13 Lessons
+                            </div>
+                            <p>150$</p>
+                            <div class="rate-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <img src="./assets/img/Course/3.jpg" alt="">
+                    </div>
+                    
+                    <div class="course__card-item show-on-scroll right-to-left right-tlx-15">
+                        <h3>Digital Marketing Online Course</h3>
+                        <div class="course__infor">
+                            <div class="number-lessons">
+                                13 Lessons
+                            </div>
+                            <p>150$</p>
+                            <div class="rate-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <img src="./assets/img/Course/4.jpg" alt="">
+                    </div>
+                    
+                    <div class="course__card-item show-on-scroll right-to-left right-tlx-20">
+                        <h3>Learn Modern Interior Online Course</h3>
+                        <div class="course__infor">
+                            <div class="number-lessons">
+                                13 Lessons
+                            </div>
+                            <p>150$</p>
+                            <div class="rate-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <img src="./assets/img/Course/5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- === Testimonial part === -->
+            <div class="prove container" id="testimonial">
+                <div class="prove__top">
+                    <div>
+                        <span class="show-on-scroll right-to-left">Testimonial</span>
+                        <p class="section-title show-on-scroll right-to-left">What Our Student Saying</p>
+                        <p class="text-color show-on-scroll right-to-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <div class="more show-on-scroll right-to-left">
+                            <div>
+                                <h4>Aska Junior</h4>
+                                <p>Students</p>
+                            </div>
+                            <button class="btn arrow">See More <i class="fa-solid fa-circle-right"></i></button>
+                        </div>
+                    </div>
+                    <img class="show-on-scroll right-to-left" src="./assets/img/Prove/happy-man-holding-cup-coffee.png" alt="">
+                </div>
+                <div class="prove__bottom">
+                    <h2 class="show-on-scroll left-to-right">Are You Ready to Start Course Now?</h2>
+                    <div class="prove__bottom__btn show-on-scroll left-to-right">
+                        <button class="btn">Get Starts</button>
+                        <button class="btn">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <!-- Footer -->
+        <footer class="container">
+            <div class="footer__col-1 show-on-scroll rise-up">
+                <div class="footer__col__title">
+                    <img src="./assets/img/Logo.png" alt="">
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+            </div>
+            <div class="footer__col-2 show-on-scroll rise-up">
+                <div class="footer__col__title">Company</div>
+                <ul>
+                    <li>Address : 123 Fifth Avenue, New York - 1060, USA.</li>
+                    <li>Call Us : +(1600) 456 7890</li>
+                    <li>Email : yourid@example.com</li>
+                    <li>Mon Sat : 9:00 AM - 19;00 PM</li>
+                </ul>
+            </div>
+            <div class="footer__col-3 show-on-scroll rise-up">
+                <div class="footer__col__title">Pages</div>
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i>Home</li>
+                    <li><i class="fa-solid fa-angle-right"></i>About Us</li>
+                    <li><i class="fa-solid fa-angle-right"></i>Contact</li>
+                    <li><i class="fa-solid fa-angle-right"></i>Hosting</li>
+                    <li><i class="fa-solid fa-angle-right"></i>Testimonial</li>
+                </ul>
+            </div>
+            <div class="footer__col-4 show-on-scroll rise-up">
+                <div class="footer__col__title">Contact Us</div>
+                <ul class="social-icon">
+                    <li class="btn"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="btn"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="btn"><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

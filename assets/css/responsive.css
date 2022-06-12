@@ -1,0 +1,243 @@
+
+/* Width < 1024 */
+@media only screen and (max-width: 1023px){
+    .nav{
+        display: none
+    }
+    .nav__bars-btn{
+        display: unset;
+    }
+
+    /* === Introduction course === */
+    .introduce-course{
+        flex-wrap: wrap;
+    }
+
+    .introduce-course img{
+        margin: 50px auto;
+        width: 80%;
+    }
+}
+
+/* Tablet: 790px <= width < 1024 */
+@media only screen and (min-width: 790px) and (max-width: 1023px) {
+    .container {
+        max-width: 800px;
+    }
+    /* === Achives === */
+    .achives{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    /* === Testimonial === */
+    .prove__top>div{
+        padding:0 0 20px ;
+    }
+
+    .prove__bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .prove__bottom h2{
+        width: 100%;
+    }
+
+    .prove__bottom__btn{
+        width: 100%;
+    }
+
+    /* === Footer === */
+    .footer__col-1{
+        max-width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+/* Mobile: width < 790px */
+@media only screen and (max-width: 789px){
+
+    /*  === Banner === */
+    .banner{
+        padding: 60px 32px 0;
+        flex-direction: column;
+    }
+    
+    .banner img{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .banner__button{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner__button-1{
+        margin: 0;
+    }
+
+    /* === Achives === */
+    .achives{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .achives__counter{
+        flex-direction: column;
+    }
+    
+    .achives__counter>div~div{
+        margin-left: 0;
+    }
+
+    /* === About === */
+    .about{
+        align-items: flex-start;
+    }
+
+    .about__title{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .about__title p{
+        text-align: left;
+    }
+
+    .about__content>img{
+        display: none;
+    }
+
+    .about__content{
+        flex-direction: column;
+    }
+
+    .about-item{
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-item p{
+        text-align: center;
+    }
+    
+    .about-item img{
+        width: 50%;
+    }
+    
+    /* === Introduction course === */
+    .introduce-course{
+        margin-top: 100px;
+    }
+
+
+    /* === Course === */
+    .course__content{
+        padding: 66px 16px;
+    }
+
+    .course__card-item{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .course__card-item h2{
+        width: 100%;
+    }
+
+    .course__card-item button{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .course__infor{
+        margin: 15px 0;
+    }
+
+
+    /* === Testimonial === */
+    .prove__top{
+        flex-direction: column;
+    }
+
+    .prove__top p{
+        width: 100%;
+    }
+
+    .prove__top .more{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .prove__top img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .prove__top>div{
+        width: 100%;
+        padding:0 0 20px;
+    }
+
+    .prove__bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .prove__bottom h2{
+        width: 100%;
+    }
+
+    .prove__bottom__btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .prove__bottom__btn>button~button{
+        margin: 20px 0; 
+    }
+
+
+    /* === Footer === */
+    .footer__col-1{
+        max-width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer__col-2{
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer__col-4{
+        max-width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+

@@ -1,0 +1,66 @@
+.show-on-scroll{
+    opacity: 0;
+}
+
+.show-on-scroll.start{
+    opacity: 1;
+}
+
+
+.left-to-right{
+    transform: translateX(-100%);
+    transition: 1.4s;
+}
+
+.left-to-right.start{
+    transform: translateX(0);
+}
+
+
+.right-to-left{
+    transform: translateX(100%);
+    transition: 1.4s;
+}
+
+.right-to-left.start{
+    transform: translateX(0);
+}
+
+.rise-up{
+    /* transform: translateY(30%); */
+    transition: 1.4s;
+    opacity: 0;
+}
+.rise-up.start{
+    /* transform: translateY(0); */
+    animation: riseUp 1s ease-in;
+}
+
+@keyframes riseUp {
+    from { 
+        transform: translateY(100%); 
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
+
+
+/* Right to left */
+.right-tlx-15{
+    transform:translatex(150%);
+}
+.right-tlx-20{
+    transform:translatex(200%);
+}
+
+
+/* Left to right */
+.left-tlx-15{
+    transform:translatex(-150%);
+}
+.left-tlx-20{
+    transform:translatex(-120%);
+}
